@@ -1,0 +1,6 @@
+SPDXVersion: SPDX-2.0
+DataLicense: CC0-1.0
+PackageName: badge-api
+PackageOriginator: Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH
+PackageHomePage: https://gitlab.opencode.de/open-code/badgebackend/badge-api
+PackageLicenseDeclared: MIT
