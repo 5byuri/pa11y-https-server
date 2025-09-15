@@ -14,7 +14,9 @@ export interface Pa11yIssue {
 }
 
 export async function buildPa11yReport(urls: string[], pa11yOptions: Record<string, any> = {}): Promise<Pa11yCiReport> {
-  let pa11y;
+  // Dynamically import pa11y to work in CJS/ESM environments
+  const pa11yModule: any = await import('pa11y');
+  const pa11y = pa11yModule?.default ?? pa11yModule;
   const report: Pa11yCiReport = {
     total: urls.length,
     passes: 0,
@@ -40,4 +42,3 @@ export async function buildPa11yReport(urls: string[], pa11yOptions: Record<stri
 
   return report;
 }
-

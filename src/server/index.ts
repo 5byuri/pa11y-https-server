@@ -53,6 +53,8 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+
+
     // Run pa11y for the found URLs
     let report;
     try {
@@ -72,6 +74,7 @@ const server = http.createServer(async (req, res) => {
       const sarif = sarifBuilder(report);
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify(sarif));
+      
     } else {
       res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
       res.end(JSON.stringify(report, (key, value) => (value instanceof Error ? { message: value.message } : value)));
