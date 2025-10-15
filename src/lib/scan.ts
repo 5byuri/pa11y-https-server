@@ -1,3 +1,6 @@
+// Copyright 2025 Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH.
+// SPDX-License-Identifier: MIT
+
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // ts-ignore-undefined
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment

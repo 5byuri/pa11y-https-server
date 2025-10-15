@@ -38,7 +38,7 @@ Usually you add next-sitemap to your postbuild, to generate the xml.
             "prebuild": "node prebuild.mjs",
             "dev": "next dev",
             "build": "next build",
-            "postbuild": "next-sitemap",  `
+            "postbuild": "next-sitemap",  
             "start": "next start",
             "lint": "next lint"
         },
@@ -47,7 +47,24 @@ Usually you add next-sitemap to your postbuild, to generate the xml.
 
 make sure to add `https://` to the sitemap url parameter.
 
-#### Example
+### Example
 `http://localhost:50259/?scanningMethod=sarif&sitemapurl=https://servicestandard.gov.de/sitemap.xml`
 
 
+# How to easily run Pa11y-Server
+## Option 1: Pull and run directly
+```
+docker pull registry.opencode.de/open-code/document-writing-tools/pa11y-server
+```
+```
+docker run registry.opencode.de/open-code/document-writing-tools/pa11y-server
+```
+
+## Option 2: Build from source
+
+Clone the repository and build your own container image:
+
+```
+docker build -t pa11y-server .
+docker run -p 50259:50259 pa11y-server
+```

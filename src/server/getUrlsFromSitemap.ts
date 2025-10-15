@@ -1,5 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+// Copyright 2025 Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH.
+// SPDX-License-Identifier: MIT
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { UrlConfig } from "../api";
 import { load } from "cheerio";

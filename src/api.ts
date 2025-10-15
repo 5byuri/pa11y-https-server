@@ -1,7 +1,5 @@
-// Copyright (c) 2025 larshermges
-// 
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
+// Copyright 2025 Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH.
+// SPDX-License-Identifier: MIT
 
 export interface UrlConfig {
   urls: string[];

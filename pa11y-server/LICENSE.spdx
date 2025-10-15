@@ -1,6 +1,0 @@
-SPDXVersion: SPDX-2.0
-DataLicense: CC0-1.0
-PackageName: pa11y-server
-PackageOriginator: Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH
-PackageHomePage: https://gitlab.opencode.de/open-code/document-writing-tools/pa11y-server
-PackageLicenseDeclared: MIT
