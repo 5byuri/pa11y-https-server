@@ -1,0 +1,12 @@
+stages:
+  - build
+  - test
+  - deploy
+
+include:
+  - remote: "https://gitlab.com/l3montree/devguard/-/raw/main/templates/full.yml"
+    inputs:
+      asset_name: "$DEVGUARD_ASSET_NAME"
+      token: "$DEVGUARD_TOKEN"
+      api_url: "$DEVGUARD_API_URL"
+      web_ui: "devguard.opencode.de"

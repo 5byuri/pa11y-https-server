@@ -1,0 +1,59 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Pa11y Server
+applicationSuite: Docuemnt-Writing-Tool
+url: 'https://gitlab.opencode.de/open-code/document-writing-tools/pa11y-server'
+logo: logo.svg
+landingURL: 'https://badges.opencode.de/de/'
+releaseDate: '2025-10-15'
+softwareVersion: 0.1.0
+developmentStatus: beta
+softwareType: standalone/backend
+platforms:
+  - web
+usedBy:
+  - ZenDiS
+categories:
+  - application-development
+  - compliance-management
+  - it-development
+  - seo
+maintenance:
+  type: contract
+  contacts:
+    - name: Alexandros Bouras
+      email: info@opencode.de
+  contractors:
+    - name: L3montree
+      until: '2025-12-31'
+      website: 'https://l3montree.com'
+legal:
+  license: MIT
+  mainCopyrightOwner: Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH
+  repoOwner: Zentrum für Digitale Souveränität der Öffentlichen Verwaltung (ZenDiS) GmbH
+intendedAudience:
+  countries:
+    - de
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de
+    - en
+description:
+  de:
+    genericName: Pa11y Server
+    documentation: 'https://gitlab.opencode.de/open-code/document-writing-tools/pa11y-server'
+    apiDocumentation: 'https://gitlab.opencode.de/open-code/document-writing-tools/pa11y-server'
+    shortDescription: >-
+      Pa11y ist Ihr Partner für automatisierte Barrierefreiheitstests.
+    longDescription: >
+      Pa11y-CI ist ein leistungsstarkes, konfigurierbares Tool zur automatisierten Überprüfung der Barrierefreiheit von Webanwendungen durch einen API Endpoint. Es prüft unter anderem grundlegende Aspekte wie Alternativtexte für Bilder und Farbkontraste, geht jedoch weit über diese Basisprüfungen hinaus. Als Orchestrierungsrahmen integriert Pa11y-CI Accessibility-Tests direkt in den Entwicklungsprozess und verhindert so, dass Barrierefreiheitsfehler überhaupt in die Produktionsumgebung gelangen. Damit unterstützt das Tool einen Paradigmenwechsel hin zu einer proaktiven, entwicklerzentrierten Qualitätssicherung.
+
+
+    features:
+      - Accessibility Scanning
+      - Farbkontrast Erkennung
+      - SARIF Standard
